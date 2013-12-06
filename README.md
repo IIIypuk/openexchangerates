@@ -8,5 +8,5 @@ Get the most recent exchange rates
 **2.** `get_currencies`  
 get list of currency codes and names
 
-**3.** `get_old(date)` *(in development)*  
+**3.** `get_old(date)`  
 get rates for any given day, where available

@@ -21,6 +21,7 @@ class OpenExchange
   def get_old(date) # YYYY-MM-DD
     json = open("#{@@url}historical/#{date}.json?app_id=#{@api_key}",
       'User-Agent' => @user_agent).read
+    return json
   end
 
   def get_currencies()
